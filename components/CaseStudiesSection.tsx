@@ -32,7 +32,7 @@ export default function CaseStudiesSection() {
                         {/*Case Card 1*/}
                         <div className={`caseCard w-full top-[100px]`}>
 
-                                <div className={`caseImgWrap bg-[url(/naija_ff.jpg)] object-fill`}>
+                                <div className={`caseImgWrap bg-[url(naija_ff.jpg)] object-fill`}>
                                     {/*<Image src={`/images/naija-food-2.png`} alt={`icon`} width={50} height={50}
                                            className={`caseImg`}
                                     />*/}
@@ -60,7 +60,7 @@ export default function CaseStudiesSection() {
                         {/*Case Card 2*/}
                         <div className={`caseCard w-full top-[150px]`}>
 
-                                <div className={`caseImgWrap bg-[url(/olic.png)]  object-fill`}>
+                                <div className={`caseImgWrap bg-[url(olic.png)]  object-fill`}>
                                     {/*<Image src={`/images/naija-food-2.png`} alt={`icon`} width={50} height={50}
                                            className={`caseImg`}
                                     />*/}
@@ -89,7 +89,7 @@ export default function CaseStudiesSection() {
                         {/*Case Card 3*/}
                         <div className={`caseCard w-full top-[200px]`}>
 
-                                <div className={`caseImgWrap bg-[url(/komfort.jpg) object-fill]`}>
+                                <div className={`caseImgWrap bg-[url(komfort.jpg) object-fill]`}>
                                     {/*<Image src={`/images/naija-food-2.png`} alt={`icon`} width={50} height={50}
                                            className={`caseImg`}
                                     />*/}

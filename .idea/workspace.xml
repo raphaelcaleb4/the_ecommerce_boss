@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2271414d-06bb-4c51-b273-0e1a4904c408" name="Changes" comment="Landing Page 80%">
-      <change afterPath="$PROJECT_DIR$/public/komfort.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/naija_ff.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/olic.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/CaseStudiesSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/CaseStudiesSection.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/FloatingCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/FloatingCard.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
