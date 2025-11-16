@@ -1,7 +1,7 @@
 'use client';
 
 const Hello = () => {
-    console.log("CLient component");
+    console.log("CLient components");
     return (
         <div>Hello</div>
     )

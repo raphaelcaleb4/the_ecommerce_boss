@@ -1,0 +1,101 @@
+@import "tailwindcss";
+
+@theme {
+    /* Custom colors */
+    --color-teb-black: #262626;
+    --color-teb-dark-grey: #40403e;
+    --color-teb-cream: #f2ebe5;
+    --color-teb-dark-camo: #595957;
+    --color-teb-grey: #8c8c8a;
+    --color-teb-silver: #bfbfbd;
+    --color-teb-card-green: #3e4927;
+
+    /* Font families */
+    --font-orbitron: 'Orbitron';
+    --font-manrope: 'Manrope';
+    --font-family-orbitron: var(--font-orbitron), sans-serif;
+    --font-family-manrope: var(--font-manrope), sans-serif;
+}
+
+@layer base {
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body, p {
+        font-family: var(--font-family-manrope), sans-serif;
+        margin: 0;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    button {
+        all: revert-layer;
+        font-family: var(--font-family-orbitron), sans-serif;
+        margin: 0;
+    }
+    h2 {
+        all: revert-layer;
+
+    }
+    .hairline {
+        width: fit-content;
+    }
+    .navBtn {
+        border-width: 0;
+    }
+    div {
+        all: revert-layer;
+    }
+}
+
+@layer components {
+    .tSection {
+        @apply relative flex justify-center lg:min-h-screen bg-white items-center py-[40px] lg:py-[80px] px-[5%];
+    }
+    .container {
+        @apply relative flex w-full px-[5%] lg:px-4 lg:py-10 items-center max-w-[1440px];
+    }
+    .vWrapper {
+        @apply relative w-full flex flex-col items-center justify-start gap-4 lg:gap-8;
+    }
+    .hWrapper {
+        @apply relative w-full grid lg:grid-cols-2 items-center gap-4 lg:gap-8 max-w-[1440px] max-h-[1080px] min-h-[80vh];
+    }
+    .headingTwo {
+        @apply relative font-family-orbitron text-4xl font-bold leading-tight text-teb-black md:text-6xl lg:text-[64px];
+        margin: 0 !important;
+    }
+    .headingThree {
+        @apply relative font-family-orbitron lg:text-3xl;
+        margin: 0 !important;
+    }
+    .serviceCard {
+        @apply relative w-[240px]  md:w-[300px] px-[32px] py-[32px] h-fit flex flex-col items-start justify-start rounded-4xl overflow-hidden xl:gap-16 gap-8;
+        aspect-ratio: 364/424;
+    }
+    .cardIconWrap {
+        @apply relative flex items-center justify-center bg-teb-dark-camo rounded-xl w-[40px] h-[40px] overflow-hidden;
+        aspect-ratio: 1 / 1;
+    }
+    .cardIcon {
+        @apply relative w-[70%];
+        width: 70%;
+    }
+    .caseCard {
+        @apply sticky w-full px-[32px] py-[32px] md:px-[40px] md:py-[40px] h-fit flex flex-col justify-center rounded-4xl gap-8 bg-[#3A502E]/30 backdrop-blur-2xl border-4 border-[#3A502E] max-w-[1312px];
+    }
+    .caseImgWrap {
+        @apply relative flex flex-col justify-center items-center rounded-4xl overflow-clip object-fill w-full;
+        aspect-ratio: 1232/458;
+    }
+    /*.caseImg {
+        @apply relative w-full h-full object-cover;
+    }*/
+
+
+}
